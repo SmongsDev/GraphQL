@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "apollo-server": "^3.8.1",
+    "graphql": "^16.5.0",
+    "graphql-voyager": "^1.0.0-rc.31",
+    "nodemon": "^2.0.16"
+  },
+  "name": "graphql",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e js,json,graphql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
