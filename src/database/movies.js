@@ -1,7 +1,7 @@
 const movies = [
     {
       id: 1,
-      name: '백두산',
+      name: '범죄도시',
       rating: 7
     },
     {
@@ -11,7 +11,7 @@ const movies = [
     },
     {
       id: 3,
-      name: '남산의 부장들',
+      name: '설국열차',
       rating: 9
     },
     {
