@@ -1,16 +1,11 @@
 {
-  "dependencies": {
-    "apollo-server": "^3.8.1",
-    "express-graphql": "^0.12.0",
-    "graphql": "^16.5.0",
-    "nodemon": "^2.0.16"
-  },
   "name": "graphql",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon -e js,json,graphql"
+    "start": "nodemon --exec babel-node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +18,12 @@
     "url": "https://github.com/javascriptKR/GraphQL/issues"
   },
   "homepage": "https://github.com/javascriptKR/GraphQL#readme",
-  "description": ""
+  "dependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "apollo-server": "^3.8.1",
+    "graphql": "^16.5.0",
+    "nodemon": "^2.0.16"
+  }
 }
